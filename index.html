@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ASAHI MORITA's portforio</title>
+    <meta name="description" content="森田あさひのポートレートサイトです">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/style.js"></script>
+  <!--CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header id="page-header" class="page-header">
+      <a href="index.html"><img class="logo" src="img/logo.png" alt="asahimoritaロゴ"></a>
+      <!--ナビゲーションメニューはじまり--> 
+      <nav class="nav">
+        <ul class="main-nav">
+          <li><a href="works.html">制作実績</a></li>
+          <li><a href=#jump>できること</a></li>
+          <li><a href="about.html">わたしについて</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <!--ナビゲーションメニュー終わり-->
+      
+      <!-- ハンバーガーメニュー ボタン -->
+      <div id="nav-wrapper" class="nav-wrapper">
+        <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+        </div>
+        <nav class="sp-nav">
+          <ul>
+            <li><a href="works.html">制作実績</a></li>
+            <li><a id="skill-jump" href=#jump>できること</a></li>
+            <li><a href="about.html">わたしについて</li>
+            <li><a href="contact.html">お問い合わせ</a> </li>
+          </ul>
+        </nav>
+        <div class="black-bg" id="js-black-bg"></div>
+       </div>
+     <!-- ハンバーガーメニューここまで -->
+      
+    </header>
+
+    　<!--メイン写真部はじまり-->
+    <div class="main-photo">
+      <img class="photo" src="img/main.jpg" alt="3色の空">
+    </div>
+      <!--メイン写真部おわり-->
+
+    　<!--制作実績部はじめ-->
+    <div class="works wrapper">
+      <h1>制作実績</h1>
+      <div class="grid wrapper-works">
+        <div class="work-photo">
+          <img src="img/work1.jpg">
+        </div>
+        <div class="work-photo">
+          <img src="img/work2.jpg">
+        </div>
+
+      </div>
+
+      <div id="work-more">
+        <a href="works.html">view more&emsp;＞</a>
+      </div> 
+    </div>
+    　<!--制作実績部終わり-->
+
+    　<!--できることはじめ-->
+    <div id="jump"></div>
+    <h1 class="skills-title wrapper">できること</h1>
+
+    <dev class="skills wrapper">
+      <div class="skills1">
+        <h2>webデザイン</h2>
+        <img src="img/desktop-light.png">
+        <div class="skill-text1">
+         <p>何を伝えたいのか？を意識したデザインを心がけています。<br>
+         FigmaやCanvaを使ってサイトやバナーのデザインができます。</p>
+        </div>
+      </div>
+
+      <div class="skills2">
+        <h2>コーディング</h2>
+        <img src="img/coding.png">
+        <div class="skill-text2">
+         <p>デザインしたものを形にします。<br>
+         動きをつけたり、デバイスが変わっても崩れない実装を心がけています。</p>
+        </div>
+      </div>
+    </dev>
+    　<!--できること終わり-->
+
+    　<!--わたしについてはじめ-->
+      <h1 class="about-title wrapper">わたしについて</h1>
+
+      <dev class="about wrapper">
+        <div class="about1">
+          <img src="img/about.jpg">
+        </div>
+    
+        <div class="about2">
+          <p>1999年生まれ長野県出身。<br>
+            4年制大学の経済学部を卒業した後、約5年間IT企業でシステムエンジニアとして働く。
+            より視覚的に雰囲気や感情を伝えることができるwebデザインに魅力を感じ、webスクールにてデザイン・コーディングについて学ぶ。
+          </p>
+          <br><br>
+          <a href="about.html">view more&emsp;＞</a>
+        </div>
+      </dev>
+    　<!--わたしについて終わり-->
+
+    <footer>
+      <p><small>&copy;2024 asahi morita , All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
